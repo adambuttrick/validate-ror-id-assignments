@@ -1,6 +1,3 @@
-# validate-affiliation-string-ror-id-assignments
-Scripts for validating affiliation string assignments
-
 ## Background
 OpenAlex has a [publicly available works dataset](https://docs.openalex.org/download-snapshot) that includes ROR ID assignments based on affiliation strings. These ROR IDs are assigned using the text classification model described [here](https://github.com/ourresearch/openalex-institution-parsing). Real world testing suggests model accuracy in the 80-90% range for those ROR IDs that have sufficient affiliation string examples/training data in their works dataset. In order to further determine the accuracy of the model, we can compare the names and location data in ROR records with the affiliation strings to which their works have been assigned.
 
