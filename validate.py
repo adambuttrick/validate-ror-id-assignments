@@ -1,7 +1,6 @@
 import re
 import csv
 import json
-import requests
 from sys import argv
 from collections import defaultdict
 from unidecode import unidecode
